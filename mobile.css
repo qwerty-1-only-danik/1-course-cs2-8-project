@@ -1,0 +1,56 @@
+/* ==================== Мобильная адаптация (до 768px) ==================== */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 5%;
+    }
+
+    .header-phone {
+        font-size: 22px;
+    }
+
+    #home {
+        padding: 40px 5% 60px;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .hero-car {
+        position: static;
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    #services {
+        padding: 50px 5%;
+    }
+
+    .services-grid, #why-us, .cars-grid, #contacts, footer {
+        flex-direction: column;
+    }
+
+    .services-text, .services-list, .car-top-img, .why-us-right, .car-card, .contacts-info, .form-box {
+        width: 100%;
+    }
+
+    .why-us-box, .form-box {
+        padding: 35px 25px;
+    }
+
+    #contacts {
+        padding: 40px 5% 0;
+    }
+
+    footer {
+        gap: 20px;
+        padding: 30px 5%;
+    }
+}
